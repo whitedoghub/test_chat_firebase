@@ -1,0 +1,28 @@
+{
+  "ReactNtiveFunctionalClass": {
+    "scope": "javascript",
+    "prefix": "rnfc",
+    "body": [
+      "import React from 'react';",
+      "import { SafeAreaView, View, StyleSheet, Text } from 'react-native'",
+      "",
+      "const $TM_FILENAME_BASE = () => {",
+      "  return (",
+      "    <SafeAreaView style={styles.container}>",
+      "      <Text>$TM_FILENAME_BASE</Text>",
+      "    </SafeAreaView>",
+      "  )",
+      "}",
+      "",
+      "const styles = StyleSheet.create({",
+      "  container: {",
+      "    flex: 1,",
+      "    backgroundColor: '#fff'",
+      "  }",
+      "});",
+      "",
+      "export default $TM_FILENAME_BASE;"
+    ],
+    "description": "React Native Functional Component"
+  }
+}
